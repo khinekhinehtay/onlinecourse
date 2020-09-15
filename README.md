@@ -1,34 +1,41 @@
-# Simple-E-learning-platform-in-laravel
+# E-learning-platform-with-laravel
 
 ------------------------------------------------
+Free Online Courses for IT Students              
 
-* The project has three user roles (Admin, Author, and Student).
-* Laravel framework in used which uses MVC architecture.
-* Various laravel functionalities like migration, seeding, requests and MVC are used.
-* Every user has different and restricted (Author and student) view.
+Group Members  
+1. Khine Khine Htay  
+2. Nyo Nyo Htwe  
+3. Khin Hnin Su Mon  
 
-## Admin
-* Can perform CRUD operations on users and assign roles to them.
-* Can perform CRUD operations on courses.
-* Can access the pages of course listing and user listing.
+###Project Description  
+  
+Our project aim to learn many courses from online. We developed the website by the name of “Free Online Courses for IT Students”. This project has two main roles:   
+(1) Admin role to manage about Courses, Subjects and  Tutors.  (2) User (Student) Role for learning Courses.             
 
-## Author
-* Can create and view all courses.
-* Can update and delete only owned courses.
-* Has author dashboard where he/she can see all enrollment requests.
-* Has a profile page to update personal details.
-
-## Student
-* Can view basic info of all courses like title, thumbnail, general description (not the actual course data), author, creation date.
-* Can send enroll request to the course author.
-* Can only read course contents which he/she is enrolled in.
-* Can unenroll himself/herself from a course.
-* Can mark a course as completed.
-* Has student dashboard where he/she can see all the enrolled courses.
-* Has a profile page to update personal details.
-
-## Guest/Visitor
-* Can view listing of all the courses.
-* Can register as a author or student.
+ 
+Permission and Role  
+          
+Admin  
+- manage about courses, subjects, tutors  
+- can see the details of student information who learn courses.  
+- can see how many courses have been learned by a student  
+       User (Student)  
+- can see the detail information of courses and subjects which they want to learn  
+- do login/register  
+  
 
 
+Problem Statement    
+In this age of change, everyone knows that not only we can study the subjects we want to know by attending class but also by studying online course. Now we are living in the situation of Stay Home because of Covid-19, it is not convenient to attend class, so it is the best to study online course at home. With just the Internet, we can study in peace and quiet at home.  
+  
+ 
+Marketing Plan 
+  
+How can we get income from online courses?  In this age of IT, 
+there are many ways to get income from online business. There is no 
+marketing plan in this project as a free course yet. If we want to earn 
+money, charge a fee from students.  
+  
+  
+ 
