@@ -10,7 +10,7 @@ use App\Enrollments;
 use Auth;
 use Illuminate\Support\Facades\Hash;
 
-class UserController extends Controller
+class TutorController extends Controller
 {
 
     /**

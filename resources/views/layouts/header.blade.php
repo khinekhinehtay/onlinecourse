@@ -6,7 +6,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                @if (Auth::check() && Auth::user()->role()->first()->name = "Author")
+                @if (Auth::check() && Auth::user()->role()->first()->name = "Admin")
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('dashboard') }}">Notifications</a>
                     </li>
@@ -24,7 +24,7 @@
                 
                 @if (Auth::check() && Auth::user()->role()->first()->name == "Admin")
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('user.index') }}">Tutors</a>
+                        <a class="nav-link" href="{{ route('tutor.index') }}">Tutors</a>
                     </li>
                 @endif
                 @if (Auth::check() && Auth::user()->role()->first()->name == "Admin")

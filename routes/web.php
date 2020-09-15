@@ -35,6 +35,8 @@ Route::get('/course/{course}', 'CourseController@show')->name('course.show');
 
 Route::resource('/user', 'UserController')->except('show')->middleware('auth');
 
+Route::resource('/tutor', 'TutorController')->except('show')->middleware('auth');
+
 Route::get('/user/{user}/account', 'UserController@account')->name('user.account');
 
 Route::get('/dashboard', 'EnrollmentController@dashboard')->name('dashboard')->middleware('auth');

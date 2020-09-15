@@ -43,7 +43,6 @@
 
                             <div class="col-md-6">
                                 <select name="role" class="form-control" id="selectrole">
-                                    <option value = "2">Author</option>
                                     <option value = "3">Student</option>
                                 </select>
                             </div>

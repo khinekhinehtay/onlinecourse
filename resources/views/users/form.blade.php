@@ -9,7 +9,10 @@
 {{-- @guest --}}
 <div class="form-group">
     <label for="role" class="col-form-label">Select Role: </label>
-    {!! Form::select('role', $roles, null, array('class' => 'form-control')); !!}
+    {{-- {!! Form::select('role', $roles, null, array('class' => 'form-control')); !!} --}}
+        <select name="role" class="form-control" id="selectrole">
+            <option value = "3">Student</option>
+        </select>
 </div>
 {{-- @endguest --}}
 <div class="form-group">
