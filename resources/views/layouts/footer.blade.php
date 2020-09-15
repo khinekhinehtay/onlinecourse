@@ -1,10 +1,9 @@
 <!--Footer-->
-<footer id="footer" class="navbar navbar-expand-lg navbar-dark bg-dark">
+<footer id="footer" class="navbar navbar-expand-lg navbar-info bg-info">
 
         <!--Copyright-->
         <div class="footer-text">
-            © 2018 Copyright:
-            <a href="https://wisdmlabs.com/"> Wisdmlabs.com </a>
+            © 2020 Copyright: Myanmar IT Consulting
         </div>
         <!--/.Copyright-->
 </footer>

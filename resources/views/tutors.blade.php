@@ -8,9 +8,9 @@
     </div>
 @endif
 {{-- <a href="{{ route('course.create') }}">{!! Form::button('Add New Course', ['class' => 'btn btn-secondary', 'id' => 'course_button']) !!}</a> --}}
-<a href="{{ route('user.create') }}" class="btn btn-secondary" id="course_button">Add New Student</a>
+<a href="{{ route('user.create') }}" class="btn btn-secondary" id="course_button">Add New Tutors</a>
 
-<h1 class="my-4">Student List</h1>
+<h1 class="my-4">Tutors List</h1>
 
 <table class="table">
         <thead class="thead-dark">

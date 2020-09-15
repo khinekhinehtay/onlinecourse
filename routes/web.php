@@ -12,12 +12,14 @@
 */
 
 Route::get('/', function () {
-    return redirect(route('home'));
+    return redirect(route('welcome'));
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/welcome', 'WelcomeController@index')->name('welcome');
 
 Route::get('/course', 'CourseController@index')->name('course.index');
 

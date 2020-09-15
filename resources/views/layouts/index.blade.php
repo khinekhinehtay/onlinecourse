@@ -6,18 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>E - Learning Project</title>
 </head>
 <body>
-<div class="nav-bar">
+<div class="nav-bar fixed-top">
     @include('layouts.header')
 </div>
 
-<div class = "container" id="pagecontent">
+<div class = "container-fluid" id="pagecontent">
     @yield('content')
 </div>
-
-<div class="text-primary">Hello Larvel</div>
 
 <div class="footer">
     @include('layouts.footer')
